@@ -67,7 +67,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: environments/nonprod
+        working-directory: environments/shared
 
     steps:
       - uses: actions/checkout@v4
