@@ -86,4 +86,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: tfplan
-          path: environments/nonprod/tfplan
+          path: environments/shared/tfplan
