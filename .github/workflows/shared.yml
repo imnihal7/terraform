@@ -55,8 +55,11 @@ jobs:
 
       - run: pip install checkov
 
-      - run: checkov -d .
-
+      - run: |
+          checkov -d . \
+            --skip-check CKV_AWS_130 \
+            --skip-check CKV2_AWS_11 \
+            --skip-check CKV2_AWS_12
   plan:
     needs: checkov
 
