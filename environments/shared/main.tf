@@ -7,4 +7,5 @@ module "vpc" {
   public_subnet_cidr  = var.public_subnet_cidr
   private_subnet_cidr = var.private_subnet_cidr
   az                  = var.availability_zone
+  
 }
