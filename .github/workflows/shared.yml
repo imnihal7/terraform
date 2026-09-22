@@ -1,4 +1,4 @@
-name: NonProd
+name: shared
 
 on:
   push:
